@@ -1,0 +1,8 @@
+## Title: XPulse
+## Description: Move and resize the ESO experience bar.
+## Author: Ixis
+## Version: 1.0.0
+## APIVersion: 101051 101052
+## SavedVariables: XPulseSavedVariables
+
+XPulse.lua

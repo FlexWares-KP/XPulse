@@ -4,5 +4,6 @@
 ## Version: 1.0.0
 ## APIVersion: 101051 101052
 ## SavedVariables: XPulseSavedVariables
+## DependsOn: LibAddonMenu-2.0>=43
 
 XPulse.lua

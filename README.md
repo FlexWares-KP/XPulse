@@ -2,7 +2,7 @@
 
 **Author:** Ixis
 
-**Dependencies:** None
+**Dependencies:** LibAddonMenu-2.0
 
 ## AI assistance disclaimer
 
@@ -14,6 +14,8 @@ XPulse lets you move and resize the native ESO experience bar without changing t
 
 - `/xpulse move` toggles a highlighted drag mode for the experience bar.
 - `/xpulse scale 80` resizes the bar to 80%. Values from 50% to 200% are supported.
-- `/xpulse reset` restores the position and 100% scale captured when XPulse first loaded.
+- `/xpulse reset last` restores the previous position and scale.
+- `/xpulse reset original` restores the original game position and size.
+- `/xpulse reset` remains an alias for `/xpulse reset original`.
 
-XPulse stores its position and scale account-wide. Reload the user interface after installing the addon, then use `/xpulse move` to position the bar.
+XPulse also adds an **XPulse** panel under **Settings > Addons**. It contains the move toggle, scale slider, and both reset buttons. XPulse stores its position, scale, original game defaults, and up to 10 previous position/scale states account-wide. Reload the user interface after installing the addon, then enable moving from the settings panel or use `/xpulse move` to position the bar.
